@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.btn{
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: 2px solid #f8000f;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 0 0 10px #f8000f;
+  padding: 0px 40px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 100px;
+  transition: all;
+  transition-duration: 1s;
+
+}
+.btn:hover{
+  background-color: #f8000f;
+  
+}
